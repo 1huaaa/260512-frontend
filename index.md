@@ -24,6 +24,14 @@
 - 由小螢幕到大螢幕
 
 ## container 容器
-- 限制內容寬度
-- 限制水平居中
-- 
+- 限制內容最大寬度
+- 限制內容水平居中
+- 限制內容水平間距(for mobile device)
+
+## semantic html
+- 每個區況的語意標籤
+
+## css rest
+- https://meyerweb.com/eric/tools/css/reset/
+- emmt `link:css`
+- `<link rel="stylesheet" href="./css/reset.css">` 使用相對路徑讓html讀取

@@ -1,0 +1,50 @@
+/* 手機版預設 */
+.quote {
+    background-color: #e5e7eb;
+    padding: var(--space-24) 0;
+}
+
+.quote-block {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 1.25;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: var(--space-4);
+}
+
+/* 640px */
+@media (min-width: 640px) {
+    .quote-text {
+        font-size: 28px;
+    }
+}
+
+/* 768px */
+@media (min-width: 768px) {
+    .quote-text {
+        font-size: 36px;
+    }
+
+    .quote-author {
+        font-size: 20px;
+    }
+}
+
+/* 1024px */
+@media (min-width: 1024px) {
+    .quote {
+        padding: var(--space-28) 0;
+    }
+}

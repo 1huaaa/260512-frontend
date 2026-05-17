@@ -1,0 +1,90 @@
+/* 手機版預設 */
+.hero {
+    background-color: #1f2937;
+    padding: var(--space-12) 0;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: var(--space-4);
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: var(--space-6);
+}
+
+.hero-link-btn {
+    display: inline-block;
+    background-color: #3882f6;
+    color: #ffffff;
+    font-weight: 700;
+    padding: var(--space-3) var(--space-8);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.hero-media {
+    width: 100%;
+    min-height: 240px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 768px 桌機版 */
+@media (min-width: 768px) {
+    .hero {
+        padding-bottom: var(--space-24);
+    }
+
+    .hero .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero-content {
+        flex: 1;
+        text-align: left;
+    }
+
+    .hero-media {
+        flex: 1;
+        min-height: 320px;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+}
+
+/* 1024px 大螢幕 */
+@media (min-width: 1024px) {
+    .hero {
+        padding-bottom: var(--space-28);
+    }
+
+    .hero .container {
+        gap: var(--space-16);
+    }
+}

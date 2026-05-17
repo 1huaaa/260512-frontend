@@ -1,0 +1,25 @@
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: var(--space-8) 0;
+    font-size: 14px;
+}
+
+@media (min-width: 640px) {
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding: var(--space-10) 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        padding: var(--space-12) 0;
+    }
+}

@@ -1,12 +1,13 @@
 /* 手機版預設 */
 .hero {
     background-color: #1f2937;
-    padding: var(--space-12) 0;
+    padding: var(--space-12) 0 var(--space-12);
 }
 
 .hero .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: var(--space-8);
 }
 
@@ -71,6 +72,7 @@
     .hero-media {
         flex: 1;
         min-height: 320px;
+        overflow: hidden;
     }
 
     .hero-title {
